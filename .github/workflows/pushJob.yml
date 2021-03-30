@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: .NET Core CLI          
-      - uses: baruchiro/github-actions@0.0.1
+        uses: baruchiro/github-actions@0.0.1
       - run: dotnet restore
       - run: dotnet build
